@@ -1,0 +1,16 @@
+settings:
+  add_goods:
+    overall: True
+  add_cart:
+    jsonpath: "$.errmsg"
+  delete_goods:
+    overall: True
+
+assert:
+  add_goods:
+    errno: 0
+    errmsg: 成功
+  add_cart: "成功"
+  delete_goods:
+    errno: 0
+    errmsg: 成功

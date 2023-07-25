@@ -1,0 +1,9 @@
+settings:
+  get_access_token:
+    jsonpath: &JSONPATH $..errmsg
+  create:
+    jsonpath: *JSONPATH
+    
+assert:
+  get_access_token: ok
+  create: created
