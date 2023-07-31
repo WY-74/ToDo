@@ -34,4 +34,5 @@ class Litemall:
         "products": [{"id": 0, "specifications": ["标准"], "price": "100", "number": "100", "url": ""}],
         "attributes": [],
     }
+    goods_ids_params = {"limit": 10, "name": "WangYun", "order": "desc", "page": 1, "sort": "add_time"}
     add_cart = {"goodsId": 1439838, "number": 1, "productId": 259085}

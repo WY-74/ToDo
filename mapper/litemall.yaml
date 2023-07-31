@@ -1,10 +1,6 @@
 settings:
-  add_goods:
-    overall: True
   add_cart:
-    jsonpath: "$.errmsg"
-  delete_goods:
-    overall: True
+    expr: "$.errmsg"
 
 assert:
   add_goods:

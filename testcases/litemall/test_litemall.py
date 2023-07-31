@@ -4,8 +4,7 @@ from pages.litemall.litemall_pages import LitemallPages
 class TestLetmall:
     def setup_class(self):
         self.page = LitemallPages(None)
-        self.page.login_admin()
-        self.page.login_user()
+        self.page.building_token_group()
 
     # 上架商品
     def test_01_add_goods(self):
